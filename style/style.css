@@ -1,0 +1,135 @@
+ /* Basic styles */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #231F20;
+}
+
+h1, 
+h2, 
+h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #414042
+}
+  /* Basic styles */
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: -1px 0px 37px 3px rgba(4, 4, 4, 0.24);
+    -moz-box-shadow: -1px 0px 37px 3px rgba(4, 4, 4, 0.24);
+    box-shadow: -1px 0px 37px 3px rgba(4, 4, 4, 0.24);    
+}
+
+   /* Header */
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1em 2em;
+    box-sizing: border-box;
+    background-color: #6d6e71;
+}
+.photo__img {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+}
+
+.header-title {
+    width: 50%;
+    text-align: center;
+    margin-top: 0;
+    font-size: 44px;
+}
+
+.header-title .header-subtitle {
+    display: block;
+    font-size: 36px;
+    color: #e6e7e8;
+}
+
+.contacts { width: 30%; }
+
+.contacts__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contacts__item .fab,
+.fas {
+    padding: .5em;
+}
+
+.contacts__item .contacts__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contacts__item .contacts__link:hover {
+    transition: .5s all;
+    color: #e6e7e8;
+}
+    /* Header */
+
+.main {
+    display: flex;
+    width: 100%;
+}
+.main title { border-bottom: 1px solid #6d6e71; }
+
+    /* Aside */
+.aside {
+    width: 30%;
+    background-color: #d1d3d4;
+    padding: 1em;
+}
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    list-style: none;  
+    padding-left: 0;
+}
+
+.skill-list .skill-item { width: 33%; }
+
+.skill-list .fab { padding: .2em; }
+
+ /* Section */
+.section {
+    width: 70%;
+    padding: 1em;
+    background-color: #e6e7e8;
+}
+
+.code {
+    padding-top: 1em;
+    background-color: #fff;    
+}
+ /* Section */
+
+  /* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #939598;
+}
+
+.footer_github {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+}
+
+.footer_github .footer__caption { margin-top: 0.5em; }
+
+.footer .footer_github:hover {
+    transform: scale(1.2);
+    transition: .5s all;
+}
+.rss-logo { width: 100px; }
+  /* Footer */
